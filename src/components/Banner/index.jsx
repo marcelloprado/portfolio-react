@@ -1,5 +1,4 @@
 import styles from "./Banner.module.css";
-import circuloColorido from "assets/circulo_colorido.png";
 import minhaFoto from "assets/minha_foto.png";
 
 export default function Banner() {
@@ -12,16 +11,18 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Desenvolvedor Front-end
+                   Sejam Bem vindos(as) ao meu portfólio <br/> Esse projeto está sendo desenvolvido com React Js
+                   
+
                 </p>
             </div>
 
             <div className={styles.imagens}>
-                <img
+                {/* <img
                     className={styles.circuloColorido}
                     src={circuloColorido} alt="Circulo colorido"
                     aria-hidden={true}
-                />
+                /> */}
 
                 <img
                     className={styles.minhaFoto}

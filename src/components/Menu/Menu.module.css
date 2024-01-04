@@ -1,5 +1,5 @@
 .navegacao {
-    height: 112px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,6 @@
 
 @media (max-width: 744px) {
     .navegacao {
-        height: 72px;
+        height: 60px;
     }
 }

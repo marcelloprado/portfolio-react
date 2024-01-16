@@ -11,7 +11,7 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                   Sejam Bem vindos(as) ao meu portfólio <br/> Esse projeto está sendo desenvolvido com React Js
+                   Sejam Bem vindo(a) ao meu portfólio <br/> Esse projeto está sendo desenvolvido com React Js
                    
 
                 </p>

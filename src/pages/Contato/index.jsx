@@ -1,7 +1,14 @@
-import styles from "./Contato.module.css";
+import styled from "styled-components"
 
-export default function Contato() {
+const ContatoStyled = styled.h1`
+    color: red;
+    background-color: var(--azul-escuro);
+`
+
+ const Contato = () => {
     return (
-        <h1 className={styles.titulo}>Contatos...</h1>
+        <ContatoStyled>Contatos...</ContatoStyled>
     )
 }
+
+export default Contato;

@@ -1,6 +1,6 @@
 import styles from './PostModelo.module.css';
 
-export default function PostModelo({ children, fotoCapa, titulo }) {
+export default function PostModelo({ children, fotoCapa, titulo, imagemConteudo }) {
     return (
         <article className={styles.postModeloContainer}>
             <div
@@ -14,9 +14,11 @@ export default function PostModelo({ children, fotoCapa, titulo }) {
             </h2>
 
             <div className={styles.postConteudoContainer}>
+            {imagemConteudo && <img src={imagemConteudo.id} alt='Imagem do conteudo' />}
+
                 {children}
             </div>
-
+            
         </article>
     )
 }

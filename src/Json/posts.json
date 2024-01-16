@@ -2,7 +2,8 @@
     {
         "id": 1,
         "titulo": "Previsão do tempo",
-        "texto": "Desenvolvido com JavaScript Vanila"
+        "texto": "Desenvolvido com JavaScript Vanila",
+        "imagem": "../assets/posts/1/tempo.mp4"
     },
     {
         "id": 2,

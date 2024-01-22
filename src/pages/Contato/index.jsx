@@ -1,20 +1,31 @@
 import styled from "styled-components";
 
 const ContatoContainer = styled.div`
-  height: 100%;
+  height: 200px;
+  width: auto;
 `;
 
 const EspacoImagens = styled.div`
   background-color: var(--azul-medio);
-  padding: 20px;
+  padding: 30px;
   display: flex;
   justify-content: space-around;
-  height: 90px;
+  height: 100%;
+  width: auto;
+
 `;
 
 const BotaoSocial = styled.button`
   border: none;
   cursor: pointer;
+`;
+
+const ImagemSocial = styled.img`
+  width: 50px;  
+  
+`;
+const ImagemSocialPng = styled.img`
+  width: 100px;  
   
 `;
 
@@ -24,13 +35,13 @@ const Contato = () => {
       <ContatoContainer>
         <EspacoImagens>
           <BotaoSocial>
-            <img src="/assets/social/instagram.svg" alt="Instagram" />
+            <ImagemSocial src="/assets/social/linkedin.svg" alt="Linkedin" />
           </BotaoSocial>
           <BotaoSocial>
-            <img src="/assets/social/facebook.svg" alt="Facebook" />
+            <ImagemSocial src="/assets/social/github.svg" alt="github" />
           </BotaoSocial>
           <BotaoSocial>
-            <img src="/assets/social/twitter.svg" alt="Twitter" />
+            <ImagemSocialPng src="/assets/social/vercel.png" alt="vercel" />
           </BotaoSocial>
         </EspacoImagens>
       </ContatoContainer>

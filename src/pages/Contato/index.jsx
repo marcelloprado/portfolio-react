@@ -7,7 +7,7 @@ const ContatoContainer = styled.div`
 
 const EspacoImagens = styled.div`
   background-color: var(--azul-medio);
-  padding: 30px;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
   height: 100%;

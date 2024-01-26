@@ -42,7 +42,7 @@ export default function SobreMim() {
             <p className={styles.paragrafo}>
                 Fazia um ano e meio que estava de novo nas operações de telecominicações, quando me deu um start de como é programar, como é desenvolver alguma coisa e como é que faz essa aplicação?
                 Foi onde mergulhei de cabeça e procurei fazer algumas imersões, me matriculei no Dev em dobro e estudava em minhas horas vagas, acordando as 05:00 estudando até as 07:00 e quando voltava do trabalho das 19:00 ás 00:00 finalizai o curso em 1 ano, aprendendo HTML, CSS, JavaScript, React, Git/gitHub, práticas de Clean Code e teste com jest.
-                No final de 2023 me matriculei na instituição de ensino Alura onde continuo a adquirir minha bagagem de conhecimento e pretendo me transformar em um full-stack
+                No final de 2023 me matriculei na instituição de ensino <b>Alura</b> onde continuo a adquirir minha bagagem de conhecimento e pretendo me transformar em um full-stack
             </p>
 
         </PostModelo>

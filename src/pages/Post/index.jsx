@@ -38,15 +38,14 @@ export default function Post() {
                         fotoCapa={`/assets/posts/${post.id}/capa.png`}
                         titulo={post.titulo}
                     >
-
-                        <div>
+                        <div className={styles.texto}>
                             {post.texto}
-                            {post.videoPath && (
-                                <video controls width="100%">
-                                    <source src={post.videoPath} type="video/mp4" />
-                                    Seu navegador não suporta o elemento de vídeo.
-                                </video>
-                            )}
+                        </div>
+                        
+                        <div className={styles.container}>
+                            <div className={styles.gif}>
+                                <img src={post.gif} alt="Gif do projeto" />
+                            </div>
 
                         </div>
 

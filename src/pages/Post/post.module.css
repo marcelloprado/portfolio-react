@@ -12,3 +12,26 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: var(--fonte-principal);
+}
+
+.gif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: auto;
+}

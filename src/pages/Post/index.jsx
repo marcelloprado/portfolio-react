@@ -5,7 +5,6 @@ import { Route, Routes, useParams } from "react-router-dom";
 import posts from 'Json/posts.json';
 import PostModelo from "components/PostModelo";
 
-import ReactMarkdown from "react-markdown";
 import NaoEncontrada from "pages/NaoEncontrada";
 import PaginaPadrao from "components/PaginaPadrao";
 import PostCard from "components/PostCard";
@@ -40,10 +39,15 @@ export default function Post() {
                         titulo={post.titulo}
                     >
 
-                        <div className="post-markdown-container">
-                            <ReactMarkdown>
-                                {post.texto}
-                            </ReactMarkdown>
+                        <div>
+                            {post.texto}
+                            {post.videoPath && (
+                                <video controls width="100%">
+                                    <source src={post.videoPath} type="video/mp4" />
+                                    Seu navegador não suporta o elemento de vídeo.
+                                </video>
+                            )}
+
                         </div>
 
                         <h2 className={styles.tituloOutrosPosts}>

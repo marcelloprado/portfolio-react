@@ -20,6 +20,10 @@ const BotaoSocial = styled.button`
   cursor: pointer;
 `;
 
+const LinkSocial = styled.a`
+  text-decoration: none;
+`
+
 const ImagemSocial = styled.img`
   width: 50px;  
   
@@ -35,13 +39,19 @@ const Contato = () => {
       <ContatoContainer>
         <EspacoImagens>
           <BotaoSocial>
-            <ImagemSocial src="/assets/social/linkedin.svg" alt="Linkedin" />
+            <LinkSocial href="https://www.linkedin.com/in/marcello-prado-7088ab128/" target="_blank">
+              <ImagemSocial src="/assets/social/linkedin.svg" alt="Linkedin" />
+            </LinkSocial>
           </BotaoSocial>
           <BotaoSocial>
-            <ImagemSocial src="/assets/social/github.svg" alt="github" />
+            <LinkSocial href="https://github.com/marcelloprado" target="_blank">
+              <ImagemSocial src="/assets/social/github.svg" alt="github" />
+            </LinkSocial>
           </BotaoSocial>
           <BotaoSocial>
-            <ImagemSocialPng src="/assets/social/vercel.png" alt="vercel" />
+            <LinkSocial href="https://vercel.com/marcello-prados-projects" target="_blank">
+              <ImagemSocialPng src="/assets/social/vercel.png" alt="vercel" />
+            </LinkSocial>
           </BotaoSocial>
         </EspacoImagens>
       </ContatoContainer>

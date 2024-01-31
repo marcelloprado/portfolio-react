@@ -30,10 +30,11 @@
 
 .imagens > .minhaFoto {
     position: absolute;
-    right: 0;
+    right: 150px;
     bottom: 0;
     width: 50%;
-    border-radius: 20%;
+    border-radius: 70% 13% / 10% 30%;
+    height: 400px;
 }
 
 
@@ -59,11 +60,7 @@
     .imagens > .minhaFoto {
         width: 25vw;
     }
-
-    /* .imagens > .circuloColorido {
-        right: 10vw;
-        width: 35vw;
-    } */
+    
 }
 
 @media (max-width: 744px) {
@@ -84,19 +81,9 @@
         height: 307px;
     }
 
-    .imagens > .minhaFoto, .imagens > .circuloColorido {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-
     .imagens > .minhaFoto {
         width: 170px;
         transform: translate(5rem, 0px);
     }
-
-    /* .imagens > .circuloColorido {
-        width: 240px;
-        transform: translate(-1.5rem, 0px);
-    } */
+   
 }

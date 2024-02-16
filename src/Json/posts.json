@@ -3,19 +3,19 @@
         "id": 1,
         "titulo": "Previsão do tempo",
         "texto": "Desenvolvido com JavaScript Vanila",
-        "gif": "/assets/posts/previsao-tempo.gif"
+        "gif": "/assets/posts/previsao-tempo.png"
     },
     {
         "id": 2,
         "titulo": "Calculadora IMC",
         "texto": "Desenvolvido com JavaScript",
-        "gif": "/assets/posts/calc-imc.gif"
+        "gif": "/assets/posts/calc-imc.png"
     },
     {
         "id": 3,
         "titulo": "Formulário Validação",
         "texto": "Desenvolvido com HTML, CSS e JS",
-        "gif": "/assets/posts/formulario-validacao.gif"
+        "gif": "/assets/posts/formulario-validacao.png"
     },
     {
         "id": 4,

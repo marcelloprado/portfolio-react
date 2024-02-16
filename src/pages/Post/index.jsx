@@ -46,7 +46,6 @@ export default function Post() {
                             <div className={styles.gif}>
                             <img src={post.gif} alt="Gif do projeto" />
                             </div>
-
                         </div>
 
                         <h2 className={styles.tituloOutrosPosts}>

@@ -21,18 +21,18 @@
         "id": 4,
         "titulo": "Cello Flix",
         "texto": "Desenvolvido com JavaScript Vanila",
-        "gif": "/assets/posts/cello-flix.gif"
+        "gif": "/assets/posts/cello-flix.png"
     },
     {
         "id": 5,
         "titulo": "Urna Eletrônica",
         "texto": "",
-        "gif": "/assets/posts/urna-eletronica.gif"
+        "gif": "/assets/posts/urna-eletronica.png"
     },
     {
         "id": 6,
         "titulo": "Organo",
         "texto": "",
-        "gif": "/assets/posts/organo-original.gif"
+        "gif": "/assets/posts/organo-original.png"
     }
 ]

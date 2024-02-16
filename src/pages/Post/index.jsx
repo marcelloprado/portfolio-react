@@ -44,7 +44,7 @@ export default function Post() {
                         
                         <div className={styles.container}>
                             <div className={styles.gif}>
-                            <img src='/assets/posts/previsao-tempo.gif' alt="Gif do projeto" />
+                            <img src='assets/posts/previsao-tempo.gif' alt="Gif do projeto" />
                             </div>
 
                         </div>

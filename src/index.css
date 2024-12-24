@@ -6,8 +6,8 @@
 
 :root {
   --menu-destacado: #061a52;
-  --azul-menu-rodape: #031630d5;
-  --azul-escuro: #091b33;
+  --azul-menu-rodape: #284a74;
+  --azul-escuro: #243346;
   --azul-medio: #184275;
   --fundo-cards: #5b636e;
   --cor-fonte-principal: #96a0af;
@@ -15,7 +15,7 @@
   --branco: #FFF;
   --fonte-principal: 'Raleway', sans-serif;
   --fonte-secundaria: 'Playfair Display', sans-serif;
-
+  --hover-orangered: orangered;
   --contatostyled:  
 
   font-family: var(--fonte-principal);

@@ -1,5 +1,6 @@
 .posts {
     padding: 0 6vw 3.625rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

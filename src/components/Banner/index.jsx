@@ -6,7 +6,7 @@ export default function Banner() {
     return (
         <div className={styles.banner}>
 
-            <div className={styles.apresentacao}>
+            <div>
                 <h1 className={styles.titulo}>
                     Marcello Prado Muller
                 </h1>
@@ -15,7 +15,7 @@ export default function Banner() {
                     style={{ fontSize: '1.3rem', whiteSpace: 'pre-line', height: '50px', display: 'inline-block' }}
                     sequence={[
 
-                        `\nSeja Bem vindo(a) ao meu portfólio,\nEsse projeto está sendo desenvolvido com React Js\nEstou utilizando o React Router Dom, Rotas aninhadas\ndinâmicas, Trabalhando com useLocation, NavLink, useStates, useNavigate e a famosa page not found 404,\nIrei adaptando ao projeto conforme for adquirindo conhecimento, no componente Contato utilizei styled Components`,
+                        `\nSeja Bem vindo(a) ao meu portfólio,\nEsse projeto foi desenvolvido com React Js\ne foi utilizado o React Router Dom, Rotas aninhadas\ne dinâmicas, Trabalhando com useLocation, NavLink, useStates, useNavigate e a famosa page not found 404,\nAbaixo segue alguns dos meus projetos, \nNo momento estou focado em desenvolvimento web com python e SQL.`,
                         4000,
                         '',
 

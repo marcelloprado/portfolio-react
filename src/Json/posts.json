@@ -1,5 +1,4 @@
 [
-
   {
     "id": 1,
     "titulo": "Previsão do tempo",
@@ -17,7 +16,7 @@
     "id": 3,
     "titulo": "Quiz JS",
     "texto": "Desenvolvido com HTML, CSS e JS",
-    "gif": "assets/posts/3/formulario-validacao.gif"
+    "gif": "assets/posts/3/Projeto-Quiz.gif"
   },
   {
     "id": 4,

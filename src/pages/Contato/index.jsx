@@ -50,7 +50,7 @@ const Contato = () => {
           </BotaoSocial>
           <BotaoSocial>
             <LinkSocial href="https://vercel.com/marcello-prados-projects" target="_blank">
-              <ImagemSocialPng src="/assets/social/vercel.png" alt="vercel" />
+              <ImagemSocialPng src="/assets/social/vercel.svg" alt="vercel" />
             </LinkSocial>
           </BotaoSocial>
         </EspacoImagens>

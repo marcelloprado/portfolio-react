@@ -25,26 +25,25 @@ export default function Post() {
     .sort((a, b) => b.id - a.id)
     .slice(0, 4);
 
-  return (
-    <Routes>
-      <Route path="*" element={<PaginaPadrao />}>
-        <Route
-          index
-          element={
-            <PostModelo
-              fotoCapa={`/assets/posts/${post.id}/capa.png`}
-              titulo={post.titulo}
-            >
-              <div className={styles.texto}>
-                {post.texto}
-                </div>
+    return (
 
-              <div className={styles.container}>
-                <div className={styles.gif}>
-                    {/* Lembrar de retirar a barra do assets no posts.json antes do deploy ("gif": "/assets/posts/1/previsao-tempo.gif",) */}
-                  <img src={post.gif} alt="Gif do projeto" />
-                </div>
-              </div>
+        <Routes>
+            <Route path="*" element={<PaginaPadrao />}>
+                <Route index element={
+                    <PostModelo
+                        fotoCapa={`/assets/posts/${post.id}/capa.png`}
+                        titulo={post.titulo}
+                    >
+                        <div className={styles.texto}>
+                            {post.texto}
+                        </div>
+                        
+                        <div className={styles.container}>
+                            <div className={styles.gif}>
+                                <img src={post.gif} alt="Gif do projeto" />
+                            </div>
+
+                        </div>
 
               <h2 className={styles.tituloOutrosPosts}>
                 Outros posts que você pode gostar:

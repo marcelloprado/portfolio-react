@@ -5,11 +5,11 @@ import BotaoPrincipal from "components/BotaoPrincipal"
 export default function PostCard({ post }) {
     return (
 
-        <Link to={`/public/posts/${post.id}`}>
+        <Link to={`/assets/posts/${post.id}`}>
             <div className={styles.post}>
                 <img
                     className={styles.capa}
-                    src={`/public/assets/posts/${post.id}/capa.png`}
+                    src={`/assets/posts/${post.id}/capa.png`}
                     alt='Imagem de capa do post'
                 />
                 <h2 className={styles.titulo}>{post.titulo}</h2>

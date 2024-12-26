@@ -11,7 +11,7 @@ export default function Banner() {
                     Marcello Prado Muller
                 </h1>
 
-                <TypeAnimation className={styles.animacao}
+                <TypeAnimation className={styles.paragrafo}
                     // style={{ fontSize: '1.3rem', whiteSpace: 'pre-line', height: '50px', display: 'inline-block'}}
                     sequence={[
 

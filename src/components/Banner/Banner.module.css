@@ -36,6 +36,11 @@
     border-radius: 70% 13% / 10% 30%;
 }
 
+.animacao {
+    font-size: 1.3rem;
+    white-space: pre-line;
+}
+
 
 
 @media (max-width: 1100px) {    

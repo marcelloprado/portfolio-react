@@ -11,11 +11,11 @@ export default function Banner() {
                     Marcello Prado Muller
                 </h1>
 
-                <TypeAnimation
-                    style={{ fontSize: '1.3rem', whiteSpace: 'pre-line', height: '50px', display: 'inline-block' }}
+                <TypeAnimation className={styles.animacao}
+                    // style={{ fontSize: '1.3rem', whiteSpace: 'pre-line', height: '50px', display: 'inline-block'}}
                     sequence={[
 
-                        `\nSeja Bem vindo(a) ao meu portfólio,\nEsse projeto foi desenvolvido com React Js\ne foi utilizado o React Router Dom, Rotas aninhadas\ne dinâmicas, Trabalhando com useLocation, NavLink, useStates, useNavigate e a famosa page not found 404, Abaixo segue alguns dos meus projetos. \nNo momento estou focado em desenvolvimento web com python e SQL.`,
+                        `\nSeja Bem vindo(a) ao meu portfólio,\nEsse projeto foi desenvolvido com React Js\ne foi utilizado o React Router Dom, Rotas aninhadas\ne dinâmicas, Trabalhando com useLocation, NavLink, useStates, useNavigate e a famosa page not found 404, Abaixo segue alguns dos projetos. \nNo momento estou focado em desenvolvimento web com python e SQL.`,
                         4000,
                         '',
 

@@ -21,7 +21,7 @@
   {
     "id": 4,
     "titulo": "Cello Flix",
-    "texto": "Desenvolvido com JavaScript Vanila",
+    "texto": "Desenvolvido com JavaScript Vanila\n e fizemos uso de uma API de filmes",
     "gif": "/assets/posts/4/Cello-Flix.gif"
   },
   {

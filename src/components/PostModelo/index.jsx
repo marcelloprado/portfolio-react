@@ -1,5 +1,6 @@
 import styles from './PostModelo.module.css';
 
+
 export default function PostModelo({ children, fotoCapa, titulo, imagemConteudo }) {
     return (
         <article className={styles.postModeloContainer}>

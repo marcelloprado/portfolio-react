@@ -5,7 +5,6 @@ import Post from "components/PostCard";
 
 export default function Inicio() {
     return (
-       
             <ul className={styles.posts}>
                 {posts.map((post) => (
                     <li key={post.id}>

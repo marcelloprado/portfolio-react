@@ -31,7 +31,7 @@ export default function Post() {
             <Route path="*" element={<PaginaPadrao />}>
                 <Route index element={
                     <PostModelo
-                        fotoCapa={`/assets/posts/${post.id}/capa.png`}
+                        fotoCapa={`assets/posts/${post.id}/capa.png`}
                         titulo={post.titulo}
                     >
                         <div className={styles.texto}>

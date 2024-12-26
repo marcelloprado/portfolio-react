@@ -35,7 +35,7 @@ export default function Post() {
                         titulo={post.titulo}
                     >
                         <div className={styles.texto}>
-                            {post.texto}
+                            <p>{post.texto}</p>
                         </div>
                         
                         <div className={styles.container}>
@@ -46,7 +46,7 @@ export default function Post() {
                         </div>
 
               <h2 className={styles.tituloOutrosPosts}>
-                Outros posts que você pode gostar:
+                Outros Projetos:
               </h2>
 
               <ul className={styles.postsRecomendados}>

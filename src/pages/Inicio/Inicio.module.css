@@ -9,6 +9,13 @@
     background-color: var(--fundo-cards);
 }
 
+.container {
+   padding: 1rem;
+   text-align: center;
+   background-color: var(--fundo-cards);
+   
+}
+
 @media (max-width: 1100px) {
     .posts {
         margin-top: 0;

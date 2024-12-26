@@ -16,7 +16,8 @@
   --fonte-principal: 'Raleway', sans-serif;
   --fonte-secundaria: 'Playfair Display', sans-serif;
   --hover-orangered: orangered;
-  --contatostyled:  
+  --contatostyled:  ;
+  --cor-texto: #294266;
 
   font-family: var(--fonte-principal);
 }

@@ -39,7 +39,7 @@
   {
     "id": 7,
     "titulo": "Comunidade Python",
-    "texto": "Primeiro projeto desenvolvido com python, Django e SQL",
+    "texto": "Primeiro projeto desenvolvido com python, Flask e SQL",
     "gif": "/assets/posts/7/comunidade.gif"
   }
 ]

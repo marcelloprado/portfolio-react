@@ -1,37 +1,61 @@
 import styles from "./Banner.module.css";
 import minhaFoto from "assets/minha_foto.png";
 import { TypeAnimation } from "react-type-animation";
-
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 export default function Banner() {
-    const [showBanner, setShowBanner] = useState(true);
+    const [mostrarBanner, setMostrarBanner] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0); // Armazenar a última posição do scroll
+
+    const debouncedScrollRef = useRef(null); // Armazena a função de debounce
 
     // Função para esconder ou mostrar o banner dependendo da direção do scroll
     const handleScroll = useCallback(() => {
         const currentScrollY = window.scrollY;
 
-        if (currentScrollY > 20 && currentScrollY > lastScrollY) {
-            setShowBanner(false);
-        } else if (currentScrollY < lastScrollY || currentScrollY < 10) {
-            setShowBanner(true);
+        if (currentScrollY > 50 && currentScrollY > lastScrollY) {
+            // Esconde o Banner quando rola para baixo
+            setMostrarBanner(false);
+        } else if (currentScrollY < lastScrollY - 25) {
+            // Faz o banner reaparecer ao rolar para cima
+            setMostrarBanner(true);
         }
 
         setLastScrollY(currentScrollY);
-    }, [lastScrollY]); // `lastScrollY` é uma dependência
+    }, [lastScrollY]); 
 
-    // Adicionando o listener de scroll ao componente
+    // Configura o debounce no primeiro render
     useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
+        const debounce = (func, delay) => {
+            let timer;
+            return (...args) => {
+                clearTimeout(timer);
+                timer = setTimeout(() => {
+                    func(...args);
+                }, delay);
+            };
+        };
+
+        debouncedScrollRef.current = debounce(handleScroll, 50);
+    }, [handleScroll]); // Atualiza apenas se `handleScroll` mudar
+
+    // Adiciona e remove o evento de scroll
+    useEffect(() => {
+        const onScroll = () => {
+            if (debouncedScrollRef.current) {
+                debouncedScrollRef.current();
+            }
+        };
+
+        window.addEventListener("scroll", onScroll);
 
         return () => {
-            window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener("scroll", onScroll);
         };
-    }, [handleScroll]); // Inclui `handleScroll` como dependência
+    }, []); // Apenas adiciona/remova listener no ciclo de vida do componente
 
     return (
-        showBanner && (
+        mostrarBanner && (
             <div className={styles.banner}>
                 <div>
                     <h1 className={styles.titulo}>Marcello Prado Muller</h1>

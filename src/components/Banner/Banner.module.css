@@ -85,3 +85,8 @@
     }
    
 }
+@media (max-width: 480px) {
+    .imagens > .minhaFoto {
+        display: none;
+    }
+}

@@ -36,3 +36,12 @@
     width: 80%;
     height: auto;
 }
+.link_projeto {
+    text-align: center;
+    font-weight: 700;
+    
+    margin-top: 1rem;
+}
+.link_projeto:hover {
+    color: var(--azul-medio);
+}

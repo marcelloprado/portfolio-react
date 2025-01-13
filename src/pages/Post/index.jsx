@@ -42,8 +42,9 @@ export default function Post() {
                             <div className={styles.gif}>
                                 <img src={post.gif} alt="Gif do projeto" />
                             </div>
-
                         </div>
+
+                        <p className={styles.link_projeto}><a href={post.link}>Link do projeto</a></p>
 
               <h2 className={styles.tituloOutrosPosts}>
                 Outros Projetos:

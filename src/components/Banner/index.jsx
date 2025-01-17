@@ -5,6 +5,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 
 export default function Banner() {
     const [mostrarBanner, setMostrarBanner] = useState(true);
+
     const [lastScrollY, setLastScrollY] = useState(0); // Armazenar a última posição do scroll
 
     const debouncedScrollRef = useRef(null); // Armazena a função de debounce
@@ -13,10 +14,10 @@ export default function Banner() {
     const handleScroll = useCallback(() => {
         const currentScrollY = window.scrollY;
 
-        if (currentScrollY > 50 && currentScrollY > lastScrollY) {
+        if (currentScrollY > 10 && currentScrollY > lastScrollY) {
             // Esconde o Banner quando rola para baixo
             setMostrarBanner(false);
-        } else if (currentScrollY < lastScrollY - 25) {
+        } else if (currentScrollY > lastScrollY - 25) {
             // Faz o banner reaparecer ao rolar para cima
             setMostrarBanner(true);
         }
@@ -36,7 +37,7 @@ export default function Banner() {
             };
         };
 
-        debouncedScrollRef.current = debounce(handleScroll, 50);
+        debouncedScrollRef.current = debounce(handleScroll, 10);
     }, [handleScroll]); // Atualiza apenas se `handleScroll` mudar
 
     // Adiciona e remove o evento de scroll

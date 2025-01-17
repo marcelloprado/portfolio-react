@@ -44,7 +44,7 @@ export default function Post() {
                             </div>
                         </div>
 
-                        <p className={styles.link_projeto}><a href={post.link}>Link do projeto</a></p>
+                        <p className={styles.link_projeto}><a href={post.link} target="blank">Link do projeto</a></p>
 
               <h2 className={styles.tituloOutrosPosts}>
                 Outros Projetos:

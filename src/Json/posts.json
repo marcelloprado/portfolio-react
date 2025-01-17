@@ -10,36 +10,42 @@
     "id": 2,
     "titulo": "Calculadora IMC",
     "texto": "Desenvolvido com JavaScript",
-    "gif": "/assets/posts/2/Calc-imc.gif"
+    "gif": "/assets/posts/2/Calc-imc.gif",
+    "link": "https://github.com/marcelloprado/calc-imc-react"
   },
   {
     "id": 3,
     "titulo": "Quiz JS",
     "texto": "Desenvolvido com HTML, CSS e JS",
-    "gif": "/assets/posts/3/Projeto-Quiz.gif"
+    "gif": "/assets/posts/3/Projeto-Quiz.gif",
+    "link": "https://github.com/marcelloprado/quiz-com-react"
   },
   {
     "id": 4,
     "titulo": "Cello Flix",
     "texto": "Desenvolvido com JavaScript Vanila\n e fizemos uso de uma API de filmes",
-    "gif": "/assets/posts/4/Cello-Flix.gif"
+    "gif": "/assets/posts/4/Cello-Flix.gif",
+    "link": ""
   },
   {
     "id": 5,
     "titulo": "Urna Eletrônica",
     "texto": "Projeto desenvovido\n com o curso B7web",
-    "gif": "/assets/posts/5/urna-eletronica.gif"
+    "gif": "/assets/posts/5/urna-eletronica.gif",
+    "link": "https://urna-eletronica-c2o5tkb5p-marcello-prados-projects.vercel.app/"
   },
   {
     "id": 6,
     "titulo": "Organo",
     "texto": "Projeto Organo, desenvolvido no curso da Alura",
-    "gif": "/assets/posts/6/organo-F1.gif"
+    "gif": "/assets/posts/6/organo-F1.gif",
+    "link": "https://organo-equipes-o2qlko66m-marcello-prados-projects.vercel.app/"
   },
   {
     "id": 7,
     "titulo": "Comunidade Python",
     "texto": "Primeiro projeto desenvolvido com python, Flask e SQL",
-    "gif": "/assets/posts/7/comunidade.gif"
+    "gif": "/assets/posts/7/comunidade.gif",
+    "link": "https://projetopythoncomunidade-production.up.railway.app/"
   }
 ]

@@ -7,7 +7,7 @@ import PostModelo from "components/PostModelo";
 
 import NaoEncontrada from "pages/NaoEncontrada";
 import PaginaPadrao from "components/PaginaPadrao";
-import PostCard from "components/PostCard";
+// import PostCard from "components/PostCard";
 
 export default function Post() {
   const parametros = useParams();
@@ -20,10 +20,10 @@ export default function Post() {
     return <NaoEncontrada />;
   }
 
-  const postsRecomendados = posts
-    .filter((post) => post.id !== Number(parametros.id))
-    .sort((a, b) => b.id - a.id)
-    .slice(0, 4);
+  // const postsRecomendados = posts
+  //   .filter((post) => post.id !== Number(parametros.id))
+  //   .sort((a, b) => b.id - a.id)
+  //   .slice(0, 4);
 
     return (
 
@@ -34,19 +34,20 @@ export default function Post() {
                         fotoCapa={`public/assets/posts/${post.id}/capa.png`}
                         titulo={post.titulo}
                     >
-                        <div className={styles.texto}>
-                            <p>{post.texto}</p>
-                        </div>
-                        
-                        <div className={styles.container}>
-                            <div className={styles.gif}>
-                                <img src={post.gif} alt="Gif do projeto" />
-                            </div>
-                        </div>
+                      <div className={styles.fundo}>
+                          <div className={styles.texto}>
+                              <p>{post.texto}</p>
+                          </div>
+                          
+                          <div className={styles.container}>
+                              <div className={styles.gif}>
+                                  <img src={post.gif} alt="Gif do projeto" />
+                              </div>
+                          </div>
 
-                        <p className={styles.link_projeto}><a href={post.link} target="blank">Link do projeto</a></p>
-
-              <h2 className={styles.tituloOutrosPosts}>
+                          <p className={styles.link_projeto}><a href={post.link} target="blank">Link do projeto</a></p>
+                        </div>
+              {/* <h2 className={styles.tituloOutrosPosts}>
                 Outros Projetos:
               </h2>
 
@@ -56,7 +57,7 @@ export default function Post() {
                     <PostCard post={post} />
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </PostModelo>
           }
         ></Route>

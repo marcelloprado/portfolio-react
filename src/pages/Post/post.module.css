@@ -1,21 +1,23 @@
-.tituloOutrosPosts {
+/* .tituloOutrosPosts {
     font-family: var(--fonte-secundaria);
     color: #363031;
     font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
     text-align: center;
-}
+} */
 
-.postsRecomendados {
+/* .postsRecomendados {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
     flex-wrap: wrap;
     
+} */
+.fundo {
+    background-color: var(--fundo-cards);
 }
-
-.container {
+.container{
     display: flex;
     justify-content: center;
 }

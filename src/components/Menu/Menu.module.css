@@ -1,0 +1,17 @@
+.navegacao {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    background-color: var(--azul-menu-rodape);
+    color: var(--branco);
+}
+
+
+
+@media (max-width: 744px) {
+    .navegacao {
+        height: 60px;
+    }
+}

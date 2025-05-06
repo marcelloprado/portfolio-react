@@ -1,0 +1,59 @@
+.tituloOutrosPosts {
+    font-family: var(--fonte-secundaria);
+    color: #363031;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.postsRecomendados {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    color: var(--cor-texto);
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: var(--fonte-principal);
+}
+
+.gif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+.desculpas {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #494a4ba8;
+}
+
+.link_projeto {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    color: var(--azul-link);
+    
+}
+.link_projeto:hover {
+    color: var(--hover-orangered);
+}

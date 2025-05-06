@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --menu-destacado: #061a52;
+  --azul-menu-rodape: #284a74;
+  --azul-escuro: #243346;
+  --azul-medio: #184275;
+  --fundo-cards: #5b636e;
+  --cor-fonte-principal: #96a0af;
+  --cor-fonte-post: #332b2b;
+  --branco: #FFF;
+  --fonte-principal: 'Raleway', sans-serif;
+  --fonte-secundaria: 'Playfair Display', sans-serif;
+  --hover-orangered: orangered;
+  --contatostyled:  ;
+  --cor-texto: #294266;
+  --azul-link:#165cdf;
+
+  font-family: var(--fonte-principal);
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+a,button,input,textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,h2,h3 {
+  font-weight: 700;
+  line-height: 5rem;
+}

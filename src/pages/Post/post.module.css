@@ -29,7 +29,7 @@
     font-family: var(--fonte-principal);
 }
 
-.gif {
+.videosMp4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,12 +38,6 @@
     height: auto;
 }
 
-.desculpas {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #494a4ba8;
-}
 
 .link_projeto {
     font-size: 1.5rem;

@@ -1,6 +1,7 @@
 .postModeloContainer {
     color: var(--cor-fonte-post);
     position: relative;
+    background-color: var(--fundo-cards);
 }
 
 .fotoCapa,

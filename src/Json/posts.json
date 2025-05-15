@@ -4,14 +4,16 @@
     "titulo": "Previsão do tempo",
     "texto": "Desenvolvido com JavaScript Vanila",
     "gif": "/assets/posts/1/Previsao-tempo.gif",
+    "video": "/assets/posts/1/Previsao-tempo.mp4",
     "link": "https://previsao-do-tempo-sigma.vercel.app"
   },
 
   {
     "id": 2,
-    "titulo": "Entrada do NetFlix",
-    "texto": "Primeiro Projeto em Python com Django e SQL",
-    "gif": "/assets/posts/2/Cello-Flix-hashtag.gif",
+    "titulo": "Pinterest Fake",
+    "texto": "Projeto desenvolvido com javaScript",
+    "gif": "/assets/posts/2/fakePinterest.gif",
+    "video": "/assets/posts/2/fakePinterest.mp4",
     "link": "https://projetocelloflixdjango-production.up.railway.app/",
     "desc": "desculpe a qualidade pois tive que reduzir para caber no GitHub"
   },
@@ -21,6 +23,7 @@
     "titulo": "Calculadora IMC",
     "texto": "Desenvolvido com JavaScript",
     "gif": "/assets/posts/3/Calc-imc.gif",
+    "video": "/assets/posts/3/Calc-imc.mp4",
     "link": "https://github.com/marcelloprado/calc-imc-react"
   },
   {
@@ -28,6 +31,7 @@
     "titulo": "Quiz JS",
     "texto": "Desenvolvido com HTML, CSS e JS",
     "gif": "/assets/posts/4/Projeto-Quiz.gif",
+    "video": "/assets/posts/4/Projeto-Quiz.mp4",
     "link": "https://github.com/marcelloprado/quiz-com-react"
   },
   {
@@ -35,6 +39,7 @@
     "titulo": "Cello Flix",
     "texto": "Desenvolvido com JavaScript Vanila\n e fizemos uso de uma API de filmes",
     "gif": "/assets/posts/5/Cello-Flix.gif",
+    "video": "/assets/posts/5/Cello-Flix.mp4",
     "link": ""
   },
   {
@@ -42,6 +47,7 @@
     "titulo": "Urna Eletrônica",
     "texto": "Projeto desenvovido\n com o curso B7web",
     "gif": "/assets/posts/6/urna-eletronica.gif",
+    "video": "/assets/posts/6/urna-eletronica.mp4",
     "link": "https://urna-eletronica-c2o5tkb5p-marcello-prados-projects.vercel.app/"
   },
   {
@@ -49,6 +55,7 @@
     "titulo": "Organo Formula-1",
     "texto": "Projeto para cadastro de pilotos e menbros das equipes de F1",
     "gif": "/assets/posts/7/organo-F1.gif",
+    "video": "/assets/posts/7/organo-F1.mp4",
     "link": "https://organo-formula1.vercel.app/"
   },
   {
@@ -56,6 +63,7 @@
     "titulo": "Comunidade Python",
     "texto": "Primeiro projeto desenvolvido com python, Flask e SQL",
     "gif": "/assets/posts/8/comunidade.gif",
+    "video": "/assets/posts/8/comunidade.mp4",
     "link": "https://projetopythoncomunidade-production.up.railway.app/"
   }
 ]
